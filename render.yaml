@@ -19,7 +19,7 @@ services:
     branch: prod # Default: master
     buildCommand: bundle install
     preDeployCommand: bundle exec ruby migrate.rb
-    startCommand: ruby app.rb
+    startCommand: bundle exec ruby app.rb
     autoDeploy: false # Disable automatic deploys
     maxShutdownDelaySeconds: 120 # Increase graceful shutdown period. Default: 30, Max: 300
     domains: # Custom domains
