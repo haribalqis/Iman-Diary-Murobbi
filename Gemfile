@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+ruby "3.2.2"
 gem "openssl"
 gem "rack-test"
 gem "time_difference"
@@ -10,6 +11,7 @@ gem "sinatra"
 gem "sqlite3"
 gem "selenium-webdriver"
 gem "webdrivers"
+
 
 gem "rackup", "~> 2.2"
 gem "puma", "~> 6.6"
